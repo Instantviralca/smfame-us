@@ -1,0 +1,3 @@
+import PlatformPage from "@/components/PlatformPage";
+export const metadata = { title: "Facebook Growth Services USA", description: "Explore Facebook follower, Page like and post like packages for US businesses and creators.", alternates: { canonical: "/facebook-services/" }, openGraph: { url: "https://smfame.us/facebook-services/", images: [{ url: "/og/facebook-services.webp", width: 1200, height: 630, alt: "Facebook growth services — SmFame" }] }, twitter: { card: "summary_large_image", images: ["/og/facebook-services.webp"] } };
+export default function Page() { return <PlatformPage platformKey="facebook" />; }

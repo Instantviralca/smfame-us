@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <section className="page-hero compact"><div className="shell centered"><span className="eyebrow"><span>404</span> Page not found</span><h1>This page lost<br/><em>its momentum.</em></h1><p>Head back to our services and choose the growth goal that fits you.</p><Link href="/services" className="button">Explore services <span>↗</span></Link></div></section>; }

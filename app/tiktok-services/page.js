@@ -1,0 +1,3 @@
+import PlatformPage from "@/components/PlatformPage";
+export const metadata = { title: "TikTok Growth Services USA", description: "Explore TikTok followers, likes, views, comments, shares, LIVE and automatic growth services for US creators.", alternates: { canonical: "/tiktok-services/" }, openGraph: { url: "https://smfame.us/tiktok-services/", images: [{ url: "/og/tiktok-services.webp", width: 1200, height: 630, alt: "TikTok growth services — SmFame" }] }, twitter: { card: "summary_large_image", images: ["/og/tiktok-services.webp"] } };
+export default function Page() { return <PlatformPage platformKey="tiktok" />; }

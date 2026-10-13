@@ -1,0 +1,3 @@
+import PlatformPage from "@/components/PlatformPage";
+export const metadata = { title: "Instagram Growth Services USA", description: "Explore Instagram followers, likes, views, comments, Story and Live growth packages for US creators and brands.", alternates: { canonical: "/instagram-services/" }, openGraph: { url: "https://smfame.us/instagram-services/", images: [{ url: "/og/instagram-services.webp", width: 1200, height: 630, alt: "Instagram growth services — SmFame" }] }, twitter: { card: "summary_large_image", images: ["/og/instagram-services.webp"] } };
+export default function Page() { return <PlatformPage platformKey="instagram" />; }
